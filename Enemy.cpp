@@ -11,6 +11,7 @@ std::vector<EnemyData> CreateAllEnemies()
 	};
 }
 
+
 void ShowEnemyData(const EnemyData& e)
 {
 	std::cout << "ID:" << e.ID
